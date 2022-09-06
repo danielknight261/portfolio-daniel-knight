@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
+
 const Skills = () => {
   return (
     <div className="w-fill lg:h-screen p-2">
@@ -8,6 +9,7 @@ const Skills = () => {
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
         </p>
+        
         <h2 className="py-4">What I Can Do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300">
