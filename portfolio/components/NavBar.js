@@ -94,13 +94,13 @@ const NavBar = () => {
               Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 marker:cursor-pointer hover:scale-105 ease-in duration-75:">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 marker:cursor-pointer hover:scale-105 ease-in duration-300:">
                 <FaLinkedinIn />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 marker:cursor-pointer hover:scale-105 ease-in duration-75:">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 marker:cursor-pointer hover:scale-105 ease-in duration-300:">
                 <FaGithub />
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 marker:cursor-pointer hover:scale-105 ease-in duration-75:">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-3 marker:cursor-pointer hover:scale-105 ease-in duration-300:">
                 <AiOutlineMail />
                 </div>
               </div>
