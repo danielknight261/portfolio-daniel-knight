@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -32,10 +33,13 @@ const About = () => {
             varius sit amet mattis vulputate enim nulla. Viverra orci sagittis
             eu volutpat odio facilisis mauris sit amet.
           </p>
+          <Link href='/#projects'>
           <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects.</p>
+          </Link>
+          
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-110 duration-300">
-            <img className="rounded-xl" src="https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="/" />
+            <img className="rounded-xl" src="https://i.ibb.co/r3kjCz7/danmoji12.jpg" alt="/" />
         </div>
       </div>
     </div>
