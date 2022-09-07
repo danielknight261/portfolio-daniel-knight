@@ -14,7 +14,7 @@ const NavBar = () => {
 
     useEffect(() => {
       if (
-        router.asPath === '/property' ||
+        router.asPath === '/redeem' ||
         router.asPath === '/property' ||
         router.asPath === '/property' ||
         router.asPath === '/property' 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import propertyImg from '../public/assets/projects/property.jpg';
+import redeemImg from '../public/assets/projects/redeem.jpg';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 
@@ -14,25 +14,17 @@ const Projects = () => {
         <h2 className='py-4'>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl={'property'}
+            title='Redeem Project'
+            backgroundImg={redeemImg}
+            projectUrl={'redeem'}
           />
           <ProjectItem
             title='Redeem Project'
-            backgroundImg={propertyImg}
-            projectUrl='property'
+            backgroundImg={redeemImg}
+            projectUrl={'redeem'}
           />
-          <ProjectItem
-            title='Calculator'
-            backgroundImg={propertyImg}
-            projectUrl='property'
-          />
-          <ProjectItem
-            title='Event Finder App'
-            backgroundImg={propertyImg}
-            projectUrl='property'
-          />
+      
+         
         </div>
       </div>
     </div>
