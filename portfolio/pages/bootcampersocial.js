@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import redeemImg from '../public/assets/projects/redeem.jpg'
+import bootcamperImg from '../public/assets/projects/bootcampersocial.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 
 const redeem = () => {
@@ -13,12 +13,12 @@ const redeem = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={redeemImg}
+          src={bootcamperImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Redeem Project</h2>
-          <h3>Next.js/ Tailwind / MongoDB</h3>
+          <h2 className='py-2'>Bootcamper Social</h2>
+          <h3>React/ Vanilla CSS / PostgresSQL</h3>
         </div>
       </div>
 
@@ -36,10 +36,10 @@ const redeem = () => {
             culpa qui officia deserunt mollit anim id est laborum. Why Choosen
             obstacles overcome etc what you enjoyed
           </p>
-          <Link href='https://final-project-front-end-boolean-pirates.vercel.app/'>
+          <Link href='https://front-end-bootcamper-social.netlify.app/'>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='https://github.com/danielknight261/final-project_front-end-boolean_pirates'>
+          <Link href='https://github.com/danielknight261/w9_frontend-project-joe-klakus-the-wailers'>
           <button className='px-8 py-2 mt-4'>Code</button>
           </Link>
         </div>
@@ -53,44 +53,21 @@ const redeem = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                Next.js
+                React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                Tailwind
+                CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                Vercel
+                Express
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                Heroku
+                PostgresSQL
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                MongoDB
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Mongoose
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Express Server
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Node.js
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Cloudinary
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Auth0
-              </p>
+              
 
             </div>
           </div>
