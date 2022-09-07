@@ -49,7 +49,7 @@ const NavBar = () => {
     className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full px-2 2xl:px-16'>
       <Link href='/'>
-           <h1 className="text-[#5651e5]">
+           <h1 className='text-[#5651e5]'>
            Dan Knight
           </h1>
       </Link>
@@ -89,7 +89,7 @@ const NavBar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
             <Link href='/'>
-            <h1 className="text-[#5651e5]">
+            <h1 className='text-[#5651e5]'>
             Dan Knight
             </h1>
             </Link>

@@ -18,7 +18,7 @@ const Contact = () => {
 <div className='col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4'>
  <div className='lg:p-4 h-full'>
     <div>
-        <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1484506169663-9e54114d6eee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="/" />
+        <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://images.unsplash.com/photo-1484506169663-9e54114d6eee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80' alt='/' />
     </div>
     <div>
     <h2 className='py-2'>Daniel Knight</h2>
@@ -28,14 +28,18 @@ const Contact = () => {
     <div>
     <p className='uppercase pt-8'>Connect With Me</p>
     <div className='flex items-center justify-between py-4'>
-               <div className="rounded-full shadow-lg shadow-gray-400 p-6 marker:cursor-pointer hover:scale-105 ease-in duration-300">
-                <FaLinkedinIn />
+               <div className='rounded-full shadow-lg shadow-gray-400 p-6 marker:cursor-pointer hover:scale-105 ease-in duration-300'>
+                <Link href='https://www.linkedin.com/in/daniel-knight-developer/'>
+                <FaLinkedinIn className='text-4xl'/>
+                </Link>
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 marker:cursor-pointer hover:scale-105 ease-in duration-300">
-                <FaGithub />
+                <div className='rounded-full shadow-lg shadow-gray-400 p-6 marker:cursor-pointer hover:scale-105 ease-in duration-300'>
+                <Link href='https://github.com/danielknight261'>
+                <FaGithub className='text-4xl'/>
+                </Link>
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 marker:cursor-pointer hover:scale-105 ease-in duration-300">
-                <AiOutlineMail />
+                <div className='rounded-full shadow-lg shadow-gray-400 p-6 marker:cursor-pointer hover:scale-105 ease-in duration-300'>
+                <AiOutlineMail className='text-4xl'/>
                 </div>
      </div>
     </div>
