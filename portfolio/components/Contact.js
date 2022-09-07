@@ -18,7 +18,7 @@ const Contact = () => {
 <div className='col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4'>
  <div className='lg:p-4 h-full'>
     <div>
-        <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="/" />
+        <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1484506169663-9e54114d6eee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="/" />
     </div>
     <div>
     <h2 className='py-2'>Daniel Knight</h2>
