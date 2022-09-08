@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import bootcamperImg from '../public/assets/projects/bootcampersocial.jpg';
+import bootcamperImg from '../public/assets/projects/bootcamper.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 
-const redeem = () => {
+const bootcampersocial = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -18,7 +18,7 @@ const redeem = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Bootcamper Social</h2>
-          <h3>React/ Vanilla CSS / PostgresSQL</h3>
+          <h3>Next.js/ Tailwind / MongoDB</h3>
         </div>
       </div>
 
@@ -61,14 +61,12 @@ const redeem = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                Express
+                Netlify
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                PostgresSQL
+                Heroku
               </p>
-              
-
             </div>
           </div>
         </div>
@@ -80,4 +78,4 @@ const redeem = () => {
   );
 };
 
-export default redeem;
+export default bootcampersocial;

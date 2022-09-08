@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import redeemImg from '../public/assets/projects/redeem.jpg';
-import bootcamperImg from '../public/assets/projects/bootcampersocial.jpg'
+import bootcamperImg from '../public/assets/projects/bootcamper.png'
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 
@@ -20,7 +20,7 @@ const Projects = () => {
             projectUrl={'redeem'}
           />
           <ProjectItem
-            title='Redeem Project'
+            title='Bootcamper Social'
             backgroundImg={bootcamperImg}
             projectUrl={'bootcampersocial'}
           />
