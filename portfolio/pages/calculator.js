@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import openweatherapiImg from '../public/assets/projects/openweather.png';
+import calculatorImg from '../public/assets/projects/logiccalculator.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 
-const openweatherapi = () => {
+const calculator = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -13,7 +13,7 @@ const openweatherapi = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={openweatherapiImg}
+          src={calculatorImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -36,10 +36,10 @@ const openweatherapi = () => {
             culpa qui officia deserunt mollit anim id est laborum. Why Choosen
             obstacles overcome etc what you enjoyed
           </p>
-          <Link href=''>
+          <Link href='https://react-logic-calculator.vercel.app/'>
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='https://github.com/danielknight261/OpenWeatherMapBasicAPI'>
+          <Link href='https://github.com/danielknight261/react-logic-calculator'>
           <button className='px-8 py-2 mt-4'>Code</button>
           </Link>
         </div>
@@ -53,36 +53,17 @@ const openweatherapi = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                Next.js
+                React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
-                Tailwind
+                Vanilla CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' />
                 Vercel
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Heroku
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                MongoDB
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Mongoose
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Express Server
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' />
-                Node.js
-              </p>
+              
               
 
             </div>
@@ -96,4 +77,4 @@ const openweatherapi = () => {
   );
 };
 
-export default openweatherapi;
+export default calculator;

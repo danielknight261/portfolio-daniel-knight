@@ -1,8 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import redeemImg from '../public/assets/projects/redeem.jpg';
-import bootcamperImg from '../public/assets/projects/bootcamper.png'
-import openweatherImg from '../public/assets/projects/openweather.png'
+import bootcamperImg from '../public/assets/projects/bootcamper.png';
+import openweatherImg from '../public/assets/projects/openweather.png';
+import calculatorImg from '../public/assets/projects/logiccalculator.png';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 
@@ -28,7 +29,12 @@ const Projects = () => {
           <ProjectItem
             title='Open Weather API'
             backgroundImg={openweatherImg}
-            projectUrl={'openweather'}
+            projectUrl={'openweatherapi'}
+          />
+          <ProjectItem
+            title='Calculator'
+            backgroundImg={calculatorImg}
+            projectUrl={'calculator'}
           />
       
          
