@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import redeemImg from '../public/assets/projects/redeem.jpg';
 import bootcamperImg from '../public/assets/projects/bootcamper.png'
+import openweatherImg from '../public/assets/projects/openweather.png'
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 
@@ -23,6 +24,11 @@ const Projects = () => {
             title='Bootcamper Social'
             backgroundImg={bootcamperImg}
             projectUrl={'bootcampersocial'}
+          />
+          <ProjectItem
+            title='Open Weather API'
+            backgroundImg={openweatherImg}
+            projectUrl={'openweather'}
           />
       
          
