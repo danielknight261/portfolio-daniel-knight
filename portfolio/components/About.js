@@ -1,15 +1,17 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#166c96]'>About</p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>Full-Stack Developer</p>
-          <p className='py-2 text-gray-600'>
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="col-span-2">
+          <p className="uppercase text-xl tracking-widest text-[#166c96]">
+            About
+          </p>
+          <h2 className="py-4">Who I Am</h2>
+          <p className="py-2 text-gray-600">Full-Stack Developer</p>
+          <p className="py-2 text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla
             posuere sollicitudin aliquam ultrices. Vestibulum morbi blandit
@@ -22,7 +24,7 @@ const About = () => {
             nascetur ridiculus mus. Sit amet luctus venenatis lectus magna
             fringilla urna porttitor rhoncus.
           </p>
-          <p className='py-2 text-gray-600'>
+          <p className="py-2 text-gray-600">
             Nulla at volutpat diam ut venenatis tellus in metus vulputate. Et
             ligula ullamcorper malesuada proin libero nunc consequat. Pretium
             lectus quam id leo. Integer malesuada nunc vel risus commodo.
@@ -33,13 +35,25 @@ const About = () => {
             varius sit amet mattis vulputate enim nulla. Viverra orci sagittis
             eu volutpat odio facilisis mauris sit amet.
           </p>
-          <Link href='/#projects'>
-          <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p>
+          <Link href="/#projects">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              Check out some of my latest projects.
+            </p>
           </Link>
-          
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-110 duration-300'>
-            <img className='rounded-xl' src='https://i.ibb.co/r3kjCz7/danmoji12.jpg' alt='/' />
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-110 duration-300">
+          <div>
+            <p className="py-2 text-gray-600">
+              This is DanMoji, the result of the first lines of code i ever
+              wrote, its meant to be me. Arguably this is cooler though, i cant
+              pull off shades like that.
+            </p>
+            <img
+              className="rounded-xl"
+              src="https://i.ibb.co/r3kjCz7/danmoji12.jpg"
+              alt="/"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const mywebsite = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Bootcamper Social</h2>
-          <h3>Next.js/ Tailwind / MongoDB</h3>
+          <h3></h3>
         </div>
       </div>
 
@@ -26,13 +26,13 @@ const mywebsite = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="text-gray-700">
           Please follow link using the Code button if you would like to view
             in Github, i thought although you are viewing the site it may be of
             interest to also see what it looks like in Github itself.
           </p>
           <Link href="https://github.com/danielknight261/portfolio-daniel-knight">
-            <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4 hover:scale-110">Code</button>
           </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
