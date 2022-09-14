@@ -26,10 +26,13 @@ const bootcampersocial = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="text-gray-700">
+          <p className="py-2 text-gray-600">
             This is a React project created as part of a team during the School
             of Code Bootcamp. The challenge was to create an application that
-            would help the boot campers on the course. Following a day of
+            would help the boot campers on the course. 
+          </p>
+          <p className="py-2 text-gray-600">
+          Following a day of
             discussion, we settled on an application that would help other boot
             campers meet in person by creating events. We worked in an agile way
             throughout the working week and alternated tasks on a daily basis.

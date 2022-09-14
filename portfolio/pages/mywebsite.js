@@ -26,7 +26,7 @@ const mywebsite = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="text-gray-700">
+          <p className="py-2 text-gray-600">
           Please follow link using the Code button if you would like to view
             in Github, i thought although you are viewing the site it may be of
             interest to also see what it looks like in Github itself.

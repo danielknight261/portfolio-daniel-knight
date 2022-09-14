@@ -26,7 +26,7 @@ const openweatherapi = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="text-gray-700">
+          <p className="py-2 text-gray-600">
             A fun little build again a simple tutorial helped me along the way
             for this one using the OpenWeatherMap API. Built using React, and
             Axios to connect the API and Vanilla CSS for styling. There's so

@@ -8,9 +8,7 @@ const Main = () => {
     <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
-            Let's Build Something Together
-          </p>
+          
           <h1 className="py-4 text-gray-700">
             Hi, I'm <span className="text-[#166c96]">Dan</span>
           </h1>
@@ -33,7 +31,9 @@ const Main = () => {
               </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 marker:cursor-pointer hover:scale-125 ease-in duration-75:">
+              <Link href='/#contact'>
               <AiOutlineMail className="text-4xl" />
+              </Link>
             </div>
           </div>
         </div>

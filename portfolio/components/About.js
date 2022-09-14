@@ -11,29 +11,21 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">Full-Stack Developer</p>
+          <p className="py-2 text-gray-600">Hi</p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla
-            posuere sollicitudin aliquam ultrices. Vestibulum morbi blandit
-            cursus risus. Eros donec ac odio tempor. Consectetur adipiscing elit
-            pellentesque habitant morbi tristique senectus et. Vitae purus
-            faucibus ornare suspendisse sed. Adipiscing commodo elit at
-            imperdiet dui accumsan sit amet nulla. Quisque id diam vel quam
-            elementum pulvinar etiam non quam. Diam phasellus vestibulum lorem
-            sed risus ultricies tristique nulla. Et magnis dis parturient montes
-            nascetur ridiculus mus. Sit amet luctus venenatis lectus magna
-            fringilla urna porttitor rhoncus.
+            I've recently completed a 16-week intensive software development
+            course with the School of Code, when I say intensive I mean 9-5
+            every single day for 16 weeks. The primary technologies used were
+            Javascript and React with a heavy focus on working in teams, pair
+            programming and real-life workplace skills.
           </p>
           <p className="py-2 text-gray-600">
-            Nulla at volutpat diam ut venenatis tellus in metus vulputate. Et
-            ligula ullamcorper malesuada proin libero nunc consequat. Pretium
-            lectus quam id leo. Integer malesuada nunc vel risus commodo.
-            Ullamcorper morbi tincidunt ornare massa eget egestas purus. Nisi
-            porta lorem mollis aliquam ut. Semper viverra nam libero justo
-            laoreet sit amet cursus. Sagittis purus sit amet volutpat consequat.
-            Eleifend donec pretium vulputate sapien. Nunc consequat interdum
-            varius sit amet mattis vulputate enim nulla. Viverra orci sagittis
-            eu volutpat odio facilisis mauris sit amet.
+            Below you will find the tech stack well all spent a lot of time
+            working with and if you look further into the projects the other
+            technologies I've begun to play around with.
+          </p>
+          <p className="py-2 text-gray-600">
+            I'm now looking for a full-time role as a junior software engineer.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
@@ -45,8 +37,7 @@ const About = () => {
           <div>
             <p className="py-2 text-gray-600">
               This is DanMoji, the result of the first lines of code i ever
-              wrote, its meant to be me. Arguably this is cooler though, i cant
-              pull off shades like that.
+              wrote.
             </p>
             <img
               className="rounded-xl"

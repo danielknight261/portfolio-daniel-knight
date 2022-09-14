@@ -26,11 +26,14 @@ const calculator = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="text-gray-700">
+          <p className="py-2 text-gray-600">
             This was a simple project I followed because I was interested in how
             to build a calculator using JavaScript logic. I was aware an easy
             way of creating a calculator was by using something like an npm
-            import and then styling how it should look. For me, I was interested
+            import and then styling how it should look. 
+          </p>
+          <p className="py-2 text-gray-600">
+          For me, I was interested
             in trying to understand how to write the logic out and try and gain
             further insight into Comparison and Logical Operators. The result
             which can be seen in the demo is a simple calculator that performs

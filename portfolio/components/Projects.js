@@ -1,11 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
 import redeemImg from '../public/assets/projects/redeem.jpg';
 import bootcamperImg from '../public/assets/projects/bootcamper.png';
 import openweatherImg from '../public/assets/projects/openweather.png';
 import calculatorImg from '../public/assets/projects/logiccalculator.png';
 import mywebsiteImg from '../public/assets/projects/mywebiste.png';
-import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {

@@ -26,12 +26,15 @@ const redeem = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p className="text-gray-700">
+          <p className="py-2 text-gray-600">
             Redeem Project is the final month-long project for the School of
             Code, the challenge was to create an application that solved a
             problem. The application we came up with allows users to upload
             tutorials on anything from turning a pallet into a wind turbine or
-            an empty tin of beans into a BBQ. In this project we used several
+            an empty tin of beans into a BBQ. 
+          </p>
+          <p className="py-2 text-gray-600">
+          In this project we used several
             technologies some I had used previously and others learnt solely
             because they were the best choice for the project. We worked in a
             team of 6 in an agile way and alternating scrum masters on a daily
