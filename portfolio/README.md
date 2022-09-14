@@ -1,10 +1,3 @@
-Tasks - SOry box around projects, one colour dont like the two
-Pick title colours
-Write content for each ppoject and also website info
-Link to linekdin and also github 
-Sort email icon link up so when clicked it opens the users email proovided in some way. 
-
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
