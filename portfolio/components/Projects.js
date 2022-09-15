@@ -4,6 +4,7 @@ import bootcamperImg from '../public/assets/projects/bootcamper.png';
 import openweatherImg from '../public/assets/projects/openweather.png';
 import calculatorImg from '../public/assets/projects/logiccalculator.png';
 import mywebsiteImg from '../public/assets/projects/mywebiste.png';
+import todolistImg from '../public/assets/projects/todolist.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {

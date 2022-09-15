@@ -32,12 +32,12 @@ const todolist = () => {
             TypeScript.
           </p>
 
-          <Link href="https://final-project-front-end-boolean-pirates.vercel.app/">
+          <Link href="https://todo-list-in-react-typescript.vercel.app/">
             <button className="px-8 py-2 mt-4 mr-8 hover:scale-110">
               Demo
             </button>
           </Link>
-          <Link href="https://github.com/danielknight261/final-project_front-end-boolean_pirates">
+          <Link href="https://github.com/danielknight261/Todo-list-in-react-typescript">
             <button className="px-8 py-2 mt-4 hover:scale-110">Code</button>
           </Link>
         </div>
