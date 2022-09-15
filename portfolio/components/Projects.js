@@ -40,6 +40,11 @@ const Projects = () => {
             backgroundImg={mywebsiteImg}
             projectUrl={'mywebsite'}
           />
+          <ProjectItem
+            title='TypeScript Todo List'
+            backgroundImg={todolistImg}
+            projectUrl={'todolist'}
+          />
        </div>
       </div>
     </div>
