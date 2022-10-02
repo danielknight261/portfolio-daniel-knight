@@ -1,5 +1,6 @@
 Tasks: Dark Mode
 Ensure Message system is working. Update added
+Add, login feature and choose between Auth and other 
 
 
 
