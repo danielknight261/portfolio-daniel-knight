@@ -14,8 +14,7 @@ const About = () => {
           <p className="py-2 text-gray-600">Hi</p>
           <p className="py-2 text-gray-600">
             I've recently completed a 16-week intensive software development
-            course with the School of Code, when I say intensive I mean 9-5
-            every single day for 16 weeks. The primary technologies used were
+            course with the School of Code. The primary technologies used were
             Javascript and React with a heavy focus on working in teams, pair
             programming and real-life workplace skills.
           </p>

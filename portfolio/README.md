@@ -1,3 +1,13 @@
+Tasks: Dark Mode
+Ensure Message system is working. Update added
+Add, login feature and choose between Auth and other 
+
+
+
+
+
+Task - skills component is not working on vercel host mobile or web find solution to this ?
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
