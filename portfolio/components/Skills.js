@@ -15,8 +15,8 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image
-                  src='/../public/assets/icons/html.png'
+              <img
+                  src='https://i.ibb.co/HtSMXbQ/html.png'
                   width='64px'
                   height='64px'
                   alt='/'
@@ -49,8 +49,8 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image
-                  src='/../public/assets/icons/javascript.png'
+              <img
+                  src='https://i.ibb.co/hCcV8sL/javascript.png'
                   width='64px'
                   height='64px'
                   alt='/'
@@ -66,8 +66,8 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image
-                  src='/../public/assets/icons/github1.png'
+              <img
+                  src='https://i.ibb.co/Hxz2yPt/github1.png'
                   width='64px'
                   height='64px'
                   alt='/'
@@ -83,8 +83,8 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image
-                  src='/../public/assets/icons/react.png'
+              <img
+                  src='https://i.ibb.co/r0yLHYB/react.png'
                   width='64px'
                   height='64px'
                   alt='/'
@@ -100,8 +100,8 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image
-                  src='/../public/assets/icons/nextjs.png'
+              <img
+                  src='https://i.ibb.co/ZL7k3Nx/nextjs.png'
                   width='64px'
                   height='64px'
                   alt='/'
@@ -117,8 +117,8 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image
-                  src='/../public/assets/icons/node.png'
+              <img
+                  src='https://i.ibb.co/XF6j1dP/node.png'
                   width='64px'
                   height='64px'
                   alt='/'
@@ -134,8 +134,8 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image
-                  src='/../public/assets/icons/tailwind.png'
+              <img
+                  src='https://i.ibb.co/6vfKvmr/tailwind.png'
                   width='64px'
                   height='64px'
                   alt='/'
