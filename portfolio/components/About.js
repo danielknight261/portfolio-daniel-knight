@@ -35,7 +35,7 @@ const About = () => {
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-110 duration-300">
           <div>
             <p className="py-2 text-gray-600">
-              This is DanMoji, the result of the first lines of code i ever
+              This is DanMoji, the product of the first lines of code I ever
               wrote.
             </p>
             <img
