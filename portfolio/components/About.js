@@ -19,9 +19,8 @@ const About = () => {
             programming and real-life workplace skills.
           </p>
           <p className="py-2 text-gray-600">
-            Below you will find the tech stack well all spent a lot of time
-            working with and if you look further into the projects the other
-            technologies I've begun to play around with.
+            Below you will find the tech stack we all spent a lot of time
+            working with and if you look further into the projects, you'll find some of the technologies ive begun to apply to my of projects.
           </p>
           <p className="py-2 text-gray-600">
             I'm now looking for a full-time role as a junior software engineer.
