@@ -127,10 +127,14 @@ const NavBar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 marker:cursor-pointer hover:scale-105 ease-in duration-300:'>
+                <Link href="https://www.linkedin.com/in/daniel-knight-developer/">
                 <FaLinkedinIn />
+                </Link>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 marker:cursor-pointer hover:scale-105 ease-in duration-300:'>
+                <Link href="https://github.com/danielknight261">
                 <FaGithub />
+                </Link>
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 marker:cursor-pointer hover:scale-105 ease-in duration-300:'>
                 <AiOutlineMail />
