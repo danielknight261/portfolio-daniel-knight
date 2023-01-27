@@ -17,7 +17,7 @@ const openweatherapi = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2 text-gray-600">Open Weather API</h2>
+          <h2 className="py-2 text-black">Open Weather API</h2>
           <h3></h3>
         </div>
       </div>
@@ -27,14 +27,13 @@ const openweatherapi = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2 text-gray-600">
-            A fun little build again a simple tutorial helped me along the way
-            for this one using the OpenWeatherMap API. Built using React, and
-            Axios to connect the API and Vanilla CSS for styling. There's so
-            much you can add using this particular API so should it change it's
-            because I've started linking up more weather data links. This was an
-            early API project for me so it was built to help wrap my head around
-            how APIs work and help visualise what the code of a RESTful API
-            looks like.
+          This project is a fun and engaging build that utilizes the OpenWeatherMap API to provide real-time weather data. The project was created with the help of a tutorial, making it an accessible and easy-to-follow learning experience. The project was built using React and Axios, which were utilized to connect to the API and retrieve the necessary data. The styling of the project was done using Vanilla CSS, providing a clean and simple visual design.
+          </p>
+          <p className="py-2 text-gray-600">
+          The OpenWeatherMap API has a wealth of data available and this project was just the tip of the iceberg. There is so much potential for further development by incorporating additional weather data links, such as hourly forecasts or extended forecasts.
+          </p>
+          <p className="py-2 text-gray-600">
+          This project served as an introduction to working with APIs and helped to understand the structure of a RESTful API. It also helped to visualise the code and how it functions in a real-world application. Overall, it was an enjoyable and educational experience that has helped to deepen my understanding of APIs and their capabilities.
           </p>
           <Link href="">
             <button className="px-8 py-2 mt-4 mr-8 hover:scale-110">Demo</button>

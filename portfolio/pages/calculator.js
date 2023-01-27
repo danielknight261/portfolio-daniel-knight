@@ -17,7 +17,7 @@ const calculator = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2 text-gray-600">Open Weather API</h2>
+          <h2 className="py-2 text-black">Open Weather API</h2>
           <h3></h3>
         </div>
       </div>
@@ -27,22 +27,26 @@ const calculator = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2 text-gray-600">
-            This was a simple project I followed because I was interested in how
-            to build a calculator using JavaScript logic. I was aware an easy
-            way of creating a calculator was by using something like an npm
-            import and then styling how it should look. 
+            I was motivated to undertake this project because I wanted to gain a
+            deeper understanding of how to build a calculator using JavaScript
+            logic. Instead of relying on pre-built packages or libraries, I was
+            more interested in exploring the underlying logic and concepts that
+            drive calculator functionality. I wanted to challenge myself to
+            build something from scratch and learn about the different
+            Comparison and Logical Operators that are used in JavaScript.
           </p>
           <p className="py-2 text-gray-600">
-          For me, I was interested
-            in trying to understand how to write the logic out and try and gain
-            further insight into Comparison and Logical Operators. The result
-            which can be seen in the demo is a simple calculator that performs
-            all the functions advertised. I'm currently working on expanding its
-            simplicity and adding more advanced features similar to what you may
-            find on a Scientific Calculator.
+            Throughout the process, I encountered various challenges and
+            roadblocks, but I persisted and was able to create a functional
+            calculator that can perform all the basic mathematical operations.
+            The final product, which can be viewed in the demo, is a simple
+            calculator that can perform addition, subtraction, multiplication,
+            and division.
           </p>
           <Link href="https://react-logic-calculator.vercel.app/">
-            <button className="px-8 py-2 mt-4 mr-8 hover:scale-110">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8 hover:scale-110">
+              Demo
+            </button>
           </Link>
           <Link href="https://github.com/danielknight261/react-logic-calculator">
             <button className="px-8 py-2 mt-4 hover:scale-110">Code</button>
