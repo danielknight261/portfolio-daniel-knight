@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import printerooImg from "../public/assets/projects/printeroo.jpg";
+import printerooImg from "../public/assets/projects/printeroo.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const redeem = () => {

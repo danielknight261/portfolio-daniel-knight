@@ -6,7 +6,7 @@ import calculatorImg from '../public/assets/projects/logiccalculator.png';
 import mywebsiteImg from '../public/assets/projects/mywebiste.png';
 import todolistImg from '../public/assets/projects/todolist.png'
 import ProjectItem from './ProjectItem';
-import printerooImg from '../public/assets/projects/printeroo.JPG'
+import printerooImg from '../public/assets/projects/printeroo.png'
 
 const Projects = () => {
   return (
