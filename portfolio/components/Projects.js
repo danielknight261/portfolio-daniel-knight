@@ -46,6 +46,11 @@ const Projects = () => {
             backgroundImg={todolistImg}
             projectUrl={'todolist'}
           />
+          <ProjectItem
+            title='Printeroo'
+            backgroundImg={printerooImg}
+            projectUrl={'printeroo'}
+          />
        </div>
       </div>
     </div>
