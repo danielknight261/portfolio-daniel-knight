@@ -27,9 +27,7 @@ const mywebsite = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2 text-gray-600">
-          Please follow link using the Code button if you would like to view
-            in Github, i thought although you are viewing the site it may be of
-            interest to also see what it looks like in Github itself.
+          If you want to view the code on Github, please use the Code button to follow the link. Even if you're viewing the site, it may be helpful to see how it appears on Github.
           </p>
           <Link href="https://github.com/danielknight261/portfolio-daniel-knight">
             <button className="px-8 py-2 mt-4 hover:scale-110">Code</button>

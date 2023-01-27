@@ -27,9 +27,15 @@ const todolist = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2 text-gray-600">
-            A simple Todo list made using TypeScript, I was curious to try and
-            understand a little more the differences between JavaScript and
-            TypeScript.
+            I decided to create a basic Todo list application, utilizing the
+            popular programming language TypeScript. My intention for this
+            project was not only to build a functional Todo list, but also to
+            gain a deeper understanding of the distinctions and contrasts
+            between TypeScript and JavaScript. As a language, TypeScript offers
+            a number of features and capabilities that are not present in
+            JavaScript, and I was eager to see how these differences would
+            affect the development and overall functionality of the Todo list
+            application.
           </p>
 
           <Link href="https://todo-list-in-react-typescript.vercel.app/">
