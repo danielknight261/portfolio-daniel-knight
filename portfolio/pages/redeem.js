@@ -27,22 +27,49 @@ const redeem = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2 text-gray-600">
-            Redeem Project is the final month-long project for the School of
-            Code, the challenge was to create an application that solved a
-            problem. The application we came up with allows users to upload
-            tutorials on anything from turning a pallet into a wind turbine or
-            an empty tin of beans into a BBQ. 
+            The Redeem Project was the final and most challenging project during
+            my time at the School of Code. The project was designed to test our
+            skills and ability to develop a functional application that
+            addresses a real-world problem. Myself and the team were tasked with
+            creating an application that allows users to upload tutorials on
+            various topics, such as converting a pallet into a wind turbine, or
+            using an empty tin of beans as a BBQ.
           </p>
           <p className="py-2 text-gray-600">
-          In this project we used several
-            technologies some I had used previously and others learnt solely
-            because they were the best choice for the project. We worked in a
-            team of 6 in an agile way and alternating scrum masters on a daily
-            basis. Please see the links provided to gain a greater understanding
-            of the MVP we managed to create.
+            To develop this application, our team utilised a variety of
+            technologies, some of which I had experience with and others that I
+            learned specifically for the project. This included front-end
+            technologies like HTML, CSS, and JavaScript, as well as back-end
+            technologies like Python, Node.js and MongoDB. We also used various
+            frameworks and libraries such as React, Express, and Mongoose to
+            help us quickly and efficiently build the application.
+          </p>
+          <p className="py-2 text-gray-600">
+            We worked in an agile manner, dividing the project into smaller
+            sprints and rotating the role of scrum master on a daily basis. This
+            approach allowed us to quickly make adjustments and improvements as
+            needed, while also ensuring that all team members were actively
+            involved in the development process.
+          </p>
+          <p className="py-2 text-gray-600">
+            The final result of our efforts was a Minimum Viable Product (MVP)
+            that had the core functionality we had defined for the application.
+            Users could upload tutorials, view them, and rate them. We also
+            added some extra features like commenting and account
+            registration/login.
+          </p>
+          <p className="py-2 text-gray-600">
+            Overall, the Redeem Project was a challenging and rewarding
+            experience. It allowed us to apply the skills we had learned
+            throughout the course, while also giving us the opportunity to learn
+            new technologies and work together as a team. We are proud of the
+            MVP we developed, and we hope that it will be useful for people who
+            want to share or learn new skills.
           </p>
           <Link href="https://final-project-front-end-boolean-pirates.vercel.app/">
-            <button className="px-8 py-2 mt-4 mr-8 hover:scale-110">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8 hover:scale-110">
+              Demo
+            </button>
           </Link>
           <Link href="https://github.com/danielknight261/final-project_front-end-boolean_pirates">
             <button className="px-8 py-2 mt-4 hover:scale-110">Code</button>
