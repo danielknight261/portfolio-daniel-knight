@@ -27,16 +27,15 @@ const bootcampersocial = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2 text-gray-600">
-            This is a React project created as part of a team during the School
-            of Code Bootcamp. The challenge was to create an application that
-            would help the boot campers on the course. 
+          Our team, comprising of members from the School of Code Bootcamp, embarked on a project to create a useful application for our fellow bootcampers. After a day of brainstorming and discussions, we settled on the idea of developing an application that would help bootcampers connect and meet in person by creating events.
           </p>
           <p className="py-2 text-gray-600">
-          Following a day of
-            discussion, we settled on an application that would help other boot
-            campers meet in person by creating events. We worked in an agile way
-            throughout the working week and alternated tasks on a daily basis.
+          We adopted an agile methodology for the duration of the project, which allowed for flexibility and adaptability as we progressed. To ensure efficient collaboration, we rotated tasks on a daily basis, allowing each team member to take on different roles and responsibilities throughout the week.
           </p>
+          <p className="py-2 text-gray-600">
+          By utilizing the popular JavaScript library, React, we were able to create a user-friendly and responsive interface for the application. The application allows users to easily create and manage events, invite other bootcampers, and track attendance. Additionally, users can also join existing events, view upcoming events and RSVP.
+          </p>
+         
           <Link href="https://front-end-bootcamper-social.netlify.app/">
             <button className="px-8 py-2 mt-4 mr-8 hover:scale-110" >Demo</button>
           </Link>
