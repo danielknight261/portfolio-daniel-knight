@@ -23,6 +23,11 @@ const Projects = () => {
             projectUrl={'redeem'}
           />
           <ProjectItem
+            title='Printeroo'
+            backgroundImg={printerooImg}
+            projectUrl={'printeroo'}
+          />
+          <ProjectItem
             title='Bootcamper Social'
             backgroundImg={bootcamperImg}
             projectUrl={'bootcampersocial'}
@@ -47,11 +52,7 @@ const Projects = () => {
             backgroundImg={todolistImg}
             projectUrl={'todolist'}
           />
-          <ProjectItem
-            title='Printeroo'
-            backgroundImg={printerooImg}
-            projectUrl={'printeroo'}
-          />
+          
        </div>
       </div>
     </div>

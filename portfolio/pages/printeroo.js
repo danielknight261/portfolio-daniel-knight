@@ -27,31 +27,45 @@ const printeroo = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2 text-gray-600">
-            The Redeem Project was the final and most challenging project during
-            my time at the School of Code. The project was designed to test our
-            skills and ability to develop a functional application that
-            addresses a real-world problem. Myself and the team were tasked with
-            creating an application that allows users to upload tutorials on
-            various topics, such as converting a pallet into a wind turbine, or
-            using an empty tin of beans as a BBQ.
+            This project was born out of a chance opportunity. I was looking for
+            something to do one weekend and came across an ad for Shopify
+            offering a 3-month subscription for just £1 per month. I was
+            intrigued and decided to give it a try.
           </p>
           <p className="py-2 text-gray-600">
-            To develop this application, our team utilised a variety of
-            technologies, some of which I had experience with and others that I
-            learned specifically for the project. This included front-end
-            technologies like HTML, CSS, and JavaScript, as well as back-end
-            technologies like Python, Node.js and MongoDB. We also used various
-            frameworks and libraries such as React, Express, and Mongoose to
-            help us quickly and efficiently build the application.
+            The project was built using a combination of different technologies,
+            including the Shopify add-on Layout hub, which allows for building a
+            website with simple drag-and-drop elements. This was a departure
+            from my usual method of building projects using Javascript, CSS, and
+            HTML in Visual Code, but it was a great opportunity to learn and
+            experiment with new tools.
           </p>
-          
-          <Link href="https://final-project-front-end-boolean-pirates.vercel.app/">
+          <p className="py-2 text-gray-600">
+            What made the project particularly interesting was that everything
+            in LayoutHub is written with HTML, CSS, and JavaScript, and I had
+            full access to customise all elements throughout the process. This
+            allowed me to infuse my own unique style and creativity into the
+            website.
+          </p>
+          <p className="py-2 text-gray-600">
+            Additionally, I used the Shopify add-on Gelato, which enabled me to
+            integrate a feature that allows customers to add their own images to
+            a canvas, mug, or tote bag and see it rendered on screen. This added
+            an interactive element to the website that was both fun and engaging
+            for users.
+          </p>
+          <p className="py-2 text-gray-600">
+            The site is still a work in progress, but it was a lot of fun to
+            build. The project has been added to my portfolio, along with a demo
+            link, so that others can see the end result and how it was built. It
+            was a great learning experience and I look forward to experimenting
+            with more e-commerce platforms and technologies in the future.
+          </p>
+
+          <Link href="https://splatbox.myshopify.com/">
             <button className="px-8 py-2 mt-4 mr-8 hover:scale-110">
               Demo
             </button>
-          </Link>
-          <Link href="https://github.com/danielknight261/final-project_front-end-boolean_pirates">
-            <button className="px-8 py-2 mt-4 hover:scale-110">Code</button>
           </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -64,43 +78,15 @@ const printeroo = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Next.js
+                Shopify
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Tailwind
+                Gelato
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Vercel
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Heroku
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                MongoDB
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Mongoose
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Express Server
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Node.js
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Cloudinary
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Auth0
+                LayoutHub
               </p>
             </div>
           </div>
