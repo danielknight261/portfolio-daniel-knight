@@ -44,28 +44,7 @@ const redeem = () => {
             frameworks and libraries such as React, Express, and Mongoose to
             help us quickly and efficiently build the application.
           </p>
-          <p className="py-2 text-gray-600">
-            We worked in an agile manner, dividing the project into smaller
-            sprints and rotating the role of scrum master on a daily basis. This
-            approach allowed us to quickly make adjustments and improvements as
-            needed, while also ensuring that all team members were actively
-            involved in the development process.
-          </p>
-          <p className="py-2 text-gray-600">
-            The final result of our efforts was a Minimum Viable Product (MVP)
-            that had the core functionality we had defined for the application.
-            Users could upload tutorials, view them, and rate them. We also
-            added some extra features like commenting and account
-            registration/login.
-          </p>
-          <p className="py-2 text-gray-600">
-            Overall, the Redeem Project was a challenging and rewarding
-            experience. It allowed us to apply the skills we had learned
-            throughout the course, while also giving us the opportunity to learn
-            new technologies and work together as a team. We are proud of the
-            MVP we developed, and we hope that it will be useful for people who
-            want to share or learn new skills.
-          </p>
+          
           <Link href="https://final-project-front-end-boolean-pirates.vercel.app/">
             <button className="px-8 py-2 mt-4 mr-8 hover:scale-110">
               Demo
