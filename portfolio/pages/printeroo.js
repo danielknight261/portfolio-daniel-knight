@@ -4,7 +4,7 @@ import Link from "next/link";
 import printerooImg from "../public/assets/projects/printeroo.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const redeem = () => {
+const printeroo = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
