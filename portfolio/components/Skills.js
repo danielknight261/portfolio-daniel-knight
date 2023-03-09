@@ -169,7 +169,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
               <img
-                  src='https://ibb.co/g9fZCh0'
+                  src='https://i.ibb.co/6nJF25G/png-transparent-postgresql-plain-wordmark-logo-icon.png'
                   width='64px'
                   height='64px'
                   alt='/'
