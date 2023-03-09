@@ -26,7 +26,7 @@ const About = () => {
           <p className="py-2 text-gray-600">
             Below you will find the tech stack we all spent a lot of time
             working with and if you look further into the projects, you'll find
-            some of the technologies ive begun to apply to my of projects.
+            some of the technologies ive begun to apply to my projects.
           </p>
           <p className="py-2 text-gray-600">
             I'm now looking for a full-time role as a junior software engineer.
