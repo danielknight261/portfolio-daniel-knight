@@ -152,7 +152,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
               <img
-                  src='https://ibb.co/s9L22M1'
+                  src='https://i.ibb.co/whDRRxQ/Mongodb-PNG-Image-HD.png'
                   width='64px'
                   height='64px'
                   alt='/'
