@@ -186,7 +186,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
               <img
-                  src='https://ibb.co/smkCvKF'
+                  src='https://i.ibb.co/y4wWt02/58480873cef1014c0b5e48ea.png'
                   width='64px'
                   height='64px'
                   alt='/'
