@@ -7,6 +7,7 @@ import mywebsiteImg from '../public/assets/projects/mywebiste.png';
 import todolistImg from '../public/assets/projects/todolist.png'
 import ProjectItem from './ProjectItem';
 import printerooImg from '../public/assets/projects/printeroo.png'
+import mernprojectImg from '../public/assets/projects/mernproject.png'
 
 const Projects = () => {
   return (
@@ -26,6 +27,11 @@ const Projects = () => {
             title='Printeroo'
             backgroundImg={printerooImg}
             projectUrl={'printeroo'}
+          />
+          <ProjectItem
+            title='MERN Project'
+            backgroundImg={mernprojectImg}
+            projectUrl={'mernproject'}
           />
           <ProjectItem
             title='Bootcamper Social'
