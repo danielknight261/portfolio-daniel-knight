@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import openweatherapiImg from "../public/assets/projects/openweather.png";
+import mernprojectImg from "../public/assets/projects/mernproject.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const mernproject = () => {
@@ -13,11 +13,11 @@ const mernproject = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={openweatherapiImg}
+          src={mernprojectImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2 text-black">Open Weather API</h2>
+          <h2 className="py-2 text-black">MERN User Management Project</h2>
           <h3></h3>
         </div>
       </div>
@@ -27,18 +27,18 @@ const mernproject = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="py-2 text-gray-600">
-          This project is a fun and engaging build that utilizes the OpenWeatherMap API to provide real-time weather data. The project was created with the help of a tutorial, making it an accessible and easy-to-follow learning experience. The project was built using React and Axios, which were utilized to connect to the API and retrieve the necessary data. The styling of the project was done using Vanilla CSS, providing a clean and simple visual design.
+          I recently built an incredibly enjoyable MERN project, which comprises of MongoDB, Express, React, and Node. This project allows you to create new users and send their information directly to the MongoDB database. And with the added bonus of an "edit" button, you can easily update or delete users from the database.
           </p>
           <p className="py-2 text-gray-600">
-          The OpenWeatherMap API has a wealth of data available and this project was just the tip of the iceberg. There is so much potential for further development by incorporating additional weather data links, such as hourly forecasts or extended forecasts.
+          Throughout the development process, I had a lot of fun exploring the nitty-gritty of all the different technologies required to put this application together. While the project's CSS styling is quite simple, the primary focus was on delving into the backend.
           </p>
           <p className="py-2 text-gray-600">
-          This project served as an introduction to working with APIs and helped to understand the structure of a RESTful API. It also helped to visualise the code and how it functions in a real-world application. Overall, it was an enjoyable and educational experience that has helped to deepen my understanding of APIs and their capabilities.
+          To ensure the project runs seamlessly, I hosted it on Heroku for the backend and Vercel for the frontend. This allows for smooth and efficient operation and guarantees that users can experience the full functionality of the MERN stack. Overall, building this project was an incredibly rewarding experience.
           </p>
-          <Link href="">
+          <Link href="https://user-management-project-mern.vercel.app">
             <button className="px-8 py-2 mt-4 mr-8 hover:scale-110">Demo</button>
           </Link>
-          <Link href="https://github.com/danielknight261/OpenWeatherMapBasicAPI">
+          <Link href="https://github.com/danielknight261/user-management-project-MERN">
             <button className="px-8 py-2 mt-4 hover:scale-110">Code</button>
           </Link>
         </div>
@@ -64,7 +64,19 @@ const mernproject = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                OpenWeatherAPI
+                MongoDB
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Express
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Node
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Heroku
               </p>
             </div>
           </div>
