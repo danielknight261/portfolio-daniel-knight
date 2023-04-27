@@ -8,6 +8,7 @@ import todolistImg from '../public/assets/projects/todolist.png'
 import ProjectItem from './ProjectItem';
 import printerooImg from '../public/assets/projects/printeroo.png'
 import mernprojectImg from '../public/assets/projects/mernproject.png'
+import coinpaprikaImg from '../public/assets/projects/coinpaprika.png'
 
 const Projects = () => {
   return (
@@ -22,6 +23,11 @@ const Projects = () => {
             title='Redeem Project'
             backgroundImg={redeemImg}
             projectUrl={'redeem'}
+          />
+          <ProjectItem
+            title='Crypto API'
+            backgroundImg={coinpaprikaImg}
+            projectUrl={'coinpaprika'}
           />
           <ProjectItem
             title='Printeroo'
